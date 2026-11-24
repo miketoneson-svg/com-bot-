@@ -10,7 +10,7 @@ import datetime
 from discord.ext import commands, tasks
 from discord import app_commands
 
-TOKEN            = os.environ["DISCORD_TOKEN"]
+TOKEN            = os.environ[""]
 WELCOME_CHANNEL  = int(os.environ.get("WELCOME_CHANNEL_ID", 0))
 LOG_CHANNEL      = int(os.environ.get("LOG_CHANNEL_ID", 0))
 
